@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+  }
+  canvas{display:block}
+  h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 3em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #00ffea,
+        0 0 20px #00ffea,
+        0 0 30px #00ffea,
+        0 0 40px #00ffea,
+        0 0 55px #00ffea,
+        0 0 75px #00ffea;
+    animation: neon 1.5s infinite alternate;
+    animation: neon 1.5s infinite alternate;
+  }
+  @keyframes neon {
+    0% {
+        text-shadow:
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #ff00ea,
+            0 0 20px #ff00ea,
+            0 0 30px #ff00ea,
+            0 0 40px #ff00ea,
+            0 0 55px #ff00ea,
+            0 0 75px #ff00ea;
+    }
+    50% {
+        text-shadow:
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #00ffea,
+            0 0 20px #00ffea,
+            0 0 30px #00ffea,
+            0 0 40px #00ffea,
+            0 0 55px #00ffea,
+            0 0 75px #00ffea;
+    }
+    100% {
+        text-shadow:
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #00ff00,
+            0 0 20px #00ff00,
+            0 0 30px #00ff00,
+            0 0 40px #00ff00,
+            0 0 55px #00ff00,
+            0 0 75px #00ff00;
+    }
+}
